@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imagenes/143bb54804da15cc3a12b9a5be4d48b9.png</file>
+        <file>imagenes/BMO - Game over.png</file>
+        <file>imagenes/interfaz.jpg</file>
+        <file>imagenes/jugador y enemigos.png</file>
+        <file>imagenes/lobito.png</file>
+        <file>imagenes/perrito.png</file>
+        <file>imagenes/pngwing.com.png</file>
+        <file>imagenes/WhatsApp Image 2023-05-04 at 12.38.51 AM.jpeg</file>
+        <file>imagenes/WhatsApp Image 2023-05-21 at 2.04.17 AM.jpeg</file>
+        <file>imagenes/fondo.jpg</file>
+    </qresource>
+</RCC>
