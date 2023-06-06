@@ -4,7 +4,7 @@
 #include <QGraphicsItem>
 #include <QPainter>
 
-class plataforma: public QGraphicsItem
+class plataforma:public QObject, public QGraphicsRectItem
 {
     int w,h;
     int posx, posy;

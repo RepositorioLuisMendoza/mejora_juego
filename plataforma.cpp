@@ -7,17 +7,19 @@ plataforma::plataforma(int x, int y, int w_, int h_)
     posy = y;
     w = w_;
     h = h_;
+    setPos(posx, posy);
 }
 
 QRectF plataforma::boundingRect() const
 {
-    return QRectF(posx,posy,w,h);
+    return QRectF(0,0,w,h);
 }
 
 void plataforma::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     painter->setBrush(Qt::white);
-    painter->drawRect(boundingRect());
+    QRectF Rectangulo(0,0,w,h);
+    painter->drawRect(Rectangulo);
 }
 
 int plataforma::getPosy() const

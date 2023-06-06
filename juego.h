@@ -22,6 +22,8 @@ public:
     juego();
     void paredes_ ();
     void cuchillos_ ();
+    void comida_();
+
     personaje *cuerpo;
 
 
@@ -33,11 +35,18 @@ private:
     void AplicarGravedad();
 
 
-    QTimer* timer;
+    QTimer* timer,*timer_1_colici;
 
 
-    QList <plataforma *> paredes;
+    QList <plataforma *> *paredes;
     void crear_pared(int x, int y, int ancho, int alto);
+
+
+    QList<comida *> eliminarMonedas(QList<comida *> monedas,int pos);
+
+
+    QList<comida *> *monedas;
+    void crear_monedas (int x, int y, int ancho, int alto);
 
     void crear_cuchillos(int Pos_x, int Pos_y);
     QList <cuchillo *> *cuchillos;
